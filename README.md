@@ -8,21 +8,21 @@ This project focuses on predicting customer churn using machine learning techniq
 
 I began by thoroughly exploring the dataset to understand customer behavior and identify potential drivers of churn. Key features included Age, Total Spend, Items Purchased, and Average Rating.
 
-![Distribution of customer age before outlier handling](link_to_your_age_distribution_image.png)
+![Distribution of customer age before outlier handling](d-AGE.png)
 *Distribution of customer age before outlier handling.*
 
-![Distribution of total spend before outlier handling](link_to_your_total_spend_distribution_image.png)
+![Distribution of total spend before outlier handling](d-TOTAL.png)
 *Distribution of customer total spend before outlier handling.*
 
-![Distribution of items purchased before outlier handling](link_to_your_items_purchased_distribution_image.png)
+![Distribution of items purchased before outlier handling](d-ITEM.png)
 *Distribution of items purchased before outlier handling.*
 
-![Distribution of average rating before outlier handling](link_to_your_average_rating_distribution_image.png)
+![Distribution of average rating before outlier handling](d-AVE.png)
 *Distribution of customer average rating before outlier handling.*
 
 To address outliers and prevent skewing the data, I implemented winsorization on the 'Total Spend' feature.
 
-![Distribution of Total Spend after winsorization](link_to_your_winsorized_total_spend_image.png)
+![Distribution of Total Spend after winsorization](d-WIND.png)
 *Distribution of Total Spend after winsorization.*
 
 ## 2. Clustering
@@ -32,7 +32,7 @@ Next, I segmented customers using K-Means clustering to identify distinct groups
 ![Elbow method for determining optimal number of clusters](e-METHOD.png)
 *Elbow method for determining optimal number of clusters.*
 
-![Silhouette score for evaluating cluster quality](Silhouette.png)
+![Silhouette score for evaluating cluster quality](s-S.png)
 *Silhouette score for evaluating cluster quality.*
 
 Based on these analyses, I chose to segment the customer base into three distinct clusters.
