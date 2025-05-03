@@ -29,10 +29,10 @@ To address outliers and prevent skewing the data, I implemented winsorization on
 
 Next, I segmented customers using K-Means clustering to identify distinct groups with varying churn propensities. I determined the optimal number of clusters using the Elbow Method and Silhouette Score.
 
-![Elbow method for determining optimal number of clusters](link_to_your_elbow_method_image.png)
+![Elbow method for determining optimal number of clusters](e-METHOD.png)
 *Elbow method for determining optimal number of clusters.*
 
-![Silhouette score for evaluating cluster quality](link_to_your_silhouette_score_image.png)
+![Silhouette score for evaluating cluster quality](Silhouette.png)
 *Silhouette score for evaluating cluster quality.*
 
 Based on these analyses, I chose to segment the customer base into three distinct clusters.
