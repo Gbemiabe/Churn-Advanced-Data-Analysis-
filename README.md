@@ -54,7 +54,7 @@ The characteristics of each cluster are summarized below:
 
 To visualize the cluster separation, I used t-SNE dimensionality reduction.
 
-[t-SNE visualization of customer clusters](link_to_your_tsne_visualization_image.png)
+[t-SNE visualization of customer clusters](t-SNE.png)
 *t-SNE visualization of customer clusters.*
 
 The cluster sizes were as follows:
